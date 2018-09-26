@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/form-responsive.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="css/global.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>        
+    <body>
+        <div class="form">
+            <div class="start">
+                <h1>Modulo di contatto</h1>
+                <p>Scrivici: ti ricontatteremo al più presto!</p>
+            </div>
+            <form>
+                <div class="row-wrap">
+                    <div class="field">
+                        <h6 class="tname">Nome</h6>
+                        <input required type="text" name="name" class="name"/>
+                    </div>
+                    <div class="field">
+                        <h6 class="tcognome">Cognome</h6>
+                        <input required type="text" name="surname" class="surname"/>
+                    </div>
+                    <div class="field">
+                        <h6 class="temail">Email</h6>
+                        <input required type="text" name="email" class="email"/>
+                    </div>
+                    <div class="field">
+                        <h6 class="ttelefono">Telefono</h6>
+                        <input required type="text" name="telefono" class="telefono"/>
+                    </div>
+                    <div class="field">
+                        <h6 class="tordine">N° ordine</h6>
+                        <input required type="text" name="ordine" class="ordine"/>
+                    </div>
+                    <div class="field">
+                        <h6 class="thelp">Come possiamo aiutarti?</h6>
+                        <select class="help">
+                            <option value="0">Account</option>
+                            <option value="1">Azienda</option>
+                            <option value="2">Ordine</option>
+                            <option value="3">Pagamenti</option>
+                            <option value="4">Prodotti</option>
+                            <option value="5">Promozioni</option>
+                            <option value="6">Resi e Recessi</option>
+                            <option value="7">Sito Internet</option>
+                            <option value="8">Trattamento dati e privacy</option>
+                            <option value="9">Feedback</option>
+                        </select>
+                    </div>
+                    
+                        <h6 class="messaggio">Messaggio</h6>
+                        <textarea class="text" name="testo" rows="9"></textarea>
+                        <div class="footer">
+                        <div class="Newsletter">
+                            <h4 class="tnewsletter">Newsletter</h4>
+                            <div class="box-1">
+                                <input class="first-box" type="checkbox" name="iscrizione" placeholder = "Surname" value="submit"/>
+                                <p class="first">Acconsento all'uso bla bla</p>
+                            </div>
+                            <div class="box-2">
+                                <input class="second-box" type="checkbox" name="profiling" placeholder = "Surname" value="submit"/>
+                                <p class="second">Acconsento all'uso bla bla</p>
+                            </div>
+                        </div>
+                            <div class="shift">
+                            <input type="submit" name="invia" value="Invia ora" class="bottone"/>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
